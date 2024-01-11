@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 
 export const CounterApp = ({ value }) => {
-    
+   
     const [ count, setCount ] = useState( value ); 
 
     const handleAdd = () => setCount( count + 1 );

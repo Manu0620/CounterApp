@@ -5,10 +5,11 @@
 html, body{
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: #21232A;
     color: lightblue;
     font-size: 1rem;
-    padding: 50px;
+    padding: 60px;
 }
 
 button{
@@ -23,5 +24,5 @@ button{
 
 button:hover{
     background: rgba(173, 216, 230, 0.674);
-    color: #343743;
+    color: #2a2c36;
 }
