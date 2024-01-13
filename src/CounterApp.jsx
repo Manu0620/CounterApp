@@ -18,11 +18,11 @@ export const CounterApp = ({ value }) => {
     return(
         <>
             <h1>Counter App</h1>
-            <h3>Count: { count } </h3>
+            <h3>Count: { count }</h3>
 
             <button onClick={ handleSubtract }> -2 </button>
             <button onClick={ handleAdd }> +2 </button>
-            <button onClick={ handleReset }> ←Reset </button>
+            <button aria-label="btn-reset" onClick={ handleReset }> ←Reset </button>
         </>
     );
 
